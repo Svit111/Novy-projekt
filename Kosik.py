@@ -1,14 +1,26 @@
-Ovocie = ("jablko", "hruska", "banan")
-Zelenina = ("rajcina")
-Zviera = ("pes", "macka")
+Ovocie = ["jablko", "hruska", "banan", "hrozno"]
+Zelenina = ["rajcina","melon"]
+Zviera = ["pes", "macka", "zajac"]
+kosik = []
 
-Kosicek = ("jablko", "hruska", "rajcina", "banan", "pes", "macka")
+while True:
+   print("Kosik veci")
+   vstup = input()
+   if vstup == "uz nic" or vstup == "koniec":
+      break
+   else:
+      kosik.append(vstup)
 
-for i in Kosicek:
+a = "Hello World!"
+print(a)
+
+for i in kosik:
     if i in Ovocie:
      print(f"{i} je ovocie")
     elif i in Zelenina:
       print(f"{i} je zelenina")
     else:
-        print(f"{i} je zviera")
+        print(f"{i} nepoznam")
+
+
 
