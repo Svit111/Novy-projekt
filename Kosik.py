@@ -22,5 +22,8 @@ for i in kosik:
     else:
         print(f"{i} nepoznam")
 
+# pouzi slovnik alebo dvojcu, kazda polozka bude par nazov a cena, ("mlieko", 2), 
+# pridaj ceny veciam
+
 
 
