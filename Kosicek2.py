@@ -30,7 +30,7 @@ while True:
         if vstup in Mnozstvo:
             if Mnozstvo[vstup] > 0:
                 kosicek.append(vstup)
-                Mnozstvo[vstup] -= 1  # Odobratie 1 kusu zo skladu
+                Mnozstvo[vstup] -= 1
             else:
                 print(f"Vypredané!")
         else:
